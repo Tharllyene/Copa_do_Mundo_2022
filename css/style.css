@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(200, 255, 200);
+}
+
+h1 {
+    color: #00450e;
+    font-family: Rubik Microbe;
+    text-align: center;
+    font-size: 80px;
+    padding: 0 10px 0 0;
+}
+
+#menu-h{
+    background-color: rgb(255, 255, 0);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+    font-size: 20px;
+}
+
+#menu-h ul li a {
+    color: rgb(0, 0, 0);
+    padding: 10px 10%;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: Secular One;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(0, 130, 0);
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    margin: 30px;
+}
+
+.quatar{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    padding-bottom: 40px;
+}
+
+.conv {
+    width: 60%;
+    margin: 0 10% 30px;
+}
+
+.esc {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div.box {
+	width: 49.5%;
+	display: inline-block;
+}
+
+
+footer {
+    background-color: #fef40d;
+}
+
+.rodape {
+    width: 50%;
+}
